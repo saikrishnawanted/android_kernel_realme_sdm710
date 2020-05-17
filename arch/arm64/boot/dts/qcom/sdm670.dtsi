@@ -2594,9 +2594,9 @@
 		qca,bt-vdd-pa-supply = <&pm660_l6>;
 		qca,bt-vdd-ldo-supply = <&pm660_l19>;
 
-		qca,bt-vdd-core-voltage-level = <1700000 1800000>;
-		qca,bt-vdd-pa-voltage-level = <1204000 1270000>;
-		qca,bt-vdd-ldo-voltage-level = <3212000 3300000>;
+		qca,bt-vdd-core-voltage-level = <1600000 1700000>;
+		qca,bt-vdd-pa-voltage-level = <1104000 1170000>;
+		qca,bt-vdd-ldo-voltage-level = <3112000 3200000>;
 
 		qca,bt-vdd-core-current-level = <1>; /* LPM/PFM */
 		qca,bt-vdd-pa-current-level = <1>; /* LPM/PFM */
