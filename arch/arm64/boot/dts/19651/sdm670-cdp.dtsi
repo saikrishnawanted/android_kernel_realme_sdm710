@@ -123,7 +123,7 @@
 
 	cd-gpios = <&tlmm 96 0x1>;
 
-	status = "ok";
+	status = "ok";sdm670-cdp.dtsi:	
 };
 
 &pm660_charger {
@@ -309,6 +309,11 @@
 &dsi_dual_nt35597_truly_video_display {
 	qcom,dsi-display-active;
 };
+
+&mdss_dsi_phy0 {
+	qcom,panel-allow-phy-poweroff;
+};
+
 
 &pm660l_wled {
 	status = "okay";
