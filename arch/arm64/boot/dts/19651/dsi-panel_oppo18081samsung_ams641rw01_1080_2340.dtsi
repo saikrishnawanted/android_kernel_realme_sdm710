@@ -52,6 +52,8 @@
 		qcom,mdss-brightness-max-level = <1023>;
 		qcom,mdss-dsi-panel-jitter = <0x4 0x1>;
 
+		qcom,ulps-enabled;
+
 		qcom,esd-check-enabled;
 		qcom,mdss-dsi-panel-status-read-length = <1>;
 		qcom,mdss-dsi-panel-status-check-mode="reg_read";

@@ -51,6 +51,7 @@
 		qcom,mdss-dsi-bl-min-level = <1>;
 		qcom,mdss-dsi-bl-max-level = <1023>;
 		qcom,mdss-brightness-max-level = <1023>;
+		qcom,ulps-enabled;
 
 		qcom,esd-check-enabled;
 		qcom,mdss-dsi-panel-status-read-length = <1>;
